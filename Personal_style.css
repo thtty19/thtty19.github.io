@@ -1,0 +1,20 @@
+#header_box {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+
+}
+
+#images {
+  max-width: 80px;
+  max-height: 80px;
+  display: flex;
+  height: auto;
+  width: auto;
+  padding: 4px;
+  border: 2px solid black;
+  flex-direction: row;
+
+}

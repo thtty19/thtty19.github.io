@@ -4,7 +4,7 @@ body {
   background-image: url(Background.jpg);
   background-size: cover;
   background-attachment: fixed;
-  color: #f2f2f2;
+
 }
 
 #header_box {
@@ -15,7 +15,7 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   padding: 10px;
-  background-color: inherit;
+  color: #f2f2f2;
 }
 
 
@@ -38,6 +38,15 @@ body {
   display: flex;
   flex-direction: row;
   background-color: #e6e6e6;
+}
+
+#info_backing {
+margin: 20px;
+display: flex;
+flex-direction: column;
+background-color: #e6e6e6;
+padding: 5px;
+
 }
 
 .link {

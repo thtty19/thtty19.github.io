@@ -1,13 +1,27 @@
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-image: url(Background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #f2f2f2;
+}
+
 #header_box {
   display: flex;
   flex-direction: row;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding: 10px;
-
+  background-color: inherit;
 }
 
-#images {
+
+
+
+#corner_image {
   max-width: 80px;
   max-height: 80px;
   display: flex;
@@ -17,4 +31,29 @@
   border: 2px solid black;
   flex-direction: row;
 
+}
+
+#page_cover {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: #e6e6e6;
+}
+
+.link {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.important {
+  font-weight: bold;
+}
+
+.role {
+  font-style: italic;
 }
